@@ -49,6 +49,7 @@ check_button.pack(side="left", padx=10)
 result_frame = tk.Frame(root, pady=20, padx=20)
 result_frame.pack()
 
+
 def create_result_row(frame, label_text):
     row_frame = tk.Frame(frame)
     row_frame.pack(fill="x", pady=5)
